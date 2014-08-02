@@ -11,7 +11,7 @@ module StellarApi
 
     def sign(destination, amount={})
       tx_hash = build_tx_hash("Payment", amount, {"Destination" => destination})
-      hash = {
+      params = {
         command: 'sign',
         secret: secret,
         tx_json: tx_hash
