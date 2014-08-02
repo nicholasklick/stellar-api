@@ -1,6 +1,8 @@
 = stellar-api
 
-Ruby API wrapper for the Stellar API: https://www.stellar.org/api/
+Ruby API wrapper for the Stellar API: https://www.stellar.org/api
+
+STILL UNDER HEAVY DEVELOPMENT, DO NOT USE IN A PRODUCTION SETTING.
 
 == Contributing to stellar-api
  
