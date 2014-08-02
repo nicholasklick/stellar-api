@@ -20,7 +20,7 @@ module StellarApi
       request_to_stellar(params)
     end
 
-    def request_to_stellar(method=:post, params)
+    def request_to_stellar(params, method=:post)
       begin
         Timeout::timeout(30) do
           client.send(method, '/', { body: params.to_json })
